@@ -2,6 +2,10 @@
 
 Official PyTorch implementation of GANiry.
 
+> [GANiry: Bald-to-Hairy Translation Using CycleGAN](https://arxiv.org/abs/2109.13126),            
+> [Fidan Samet](https://fidansamet.github.io/), Oguz Bakir.        
+> *([arXiv pre-print](https://arxiv.org/abs/2109.13126))*            
+
 
 ## Summary
 This work presents our computer vision course project called bald
@@ -52,3 +56,23 @@ One hot vector is the binary encoding of hair classes.
 GANiry is released under [GNU General Public License](LICENSE). We developed 
 GANiry on top of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). 
 Please refer to License of CycleGAN for more details.
+
+
+## Citation
+
+If you find GANiry useful for your research, please cite our paper as follows.
+
+> F. Samet, O. Bakir, "GANiry: Bald-to-Hairy Translation Using CycleGAN", arXiv, 2021.
+
+
+BibTeX entry:
+```
+@misc{samet2021ganiry,
+      title={GANiry: Bald-to-Hairy Translation Using CycleGAN}, 
+      author={Fidan Samet and Oguz Bakir},
+      year={2021},
+      eprint={2109.13126},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
