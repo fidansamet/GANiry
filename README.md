@@ -41,6 +41,7 @@ in this work.
     ~~~
 
 ### Training
+[Pre-trained models](https://drive.google.com/drive/folders/1TuL75rXVrv9TyGIOaQbao_UidhxwLuT1?usp=sharing) are also available.  
 Number of classes indicates the different hair classes in the dataset.
 
     python train.py --dataroot ./datasets/bald2hairy --name bald2hairy --no_dropout --netG resnet_6blocks --load_size 143 --crop_size 128 --input_nc 4 --class_num 4 --percept_loss True --cycle_loss False
@@ -49,6 +50,7 @@ Number of classes indicates the different hair classes in the dataset.
 One hot vector is the binary encoding of hair classes.
 
     python test.py --dataroot ./datasets/bald2hairy --name bald2hairy --no_dropout --netG resnet_6blocks --load_size 143 --crop_size 128 --input_nc 4 --class_num 4 --percept_loss True --cycle_loss False --phase test --one_hot_vector 1 0 1 0
+
 
 
 ## License
